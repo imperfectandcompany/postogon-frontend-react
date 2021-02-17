@@ -6,5 +6,5 @@ const Avatar = () => {
     );
 };
 
-export default Avatar;
+export default Avatar
 

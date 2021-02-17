@@ -1,3 +1,5 @@
+import React from "react";
+
 const Name = () => {
     return (
         <div className="flex items-center transition duration-500 transform hover:-translate-y-1">

@@ -1,10 +1,16 @@
-import Avatar from "../../../core/avatar";
-import Name from "../../../core/name";
+import Avatar from "../../../core/user/avatar";
+import Name from "../../../core/user/name";
 import Timestamp from "../timestamp";
 import Content from "../content";
-import Bio from "../../../core/bio";
+import Bio from "../../../core/user/bio";
 import Reactions from "../reactions";
 import Options from "../../../core/options";
+
+
+
+
+
+
 
 const Post = () => {
     return (
@@ -25,7 +31,7 @@ const Post = () => {
                     <Bio/>
                 </div>
             </div>
-            <Reactions/>
+            <Reactions comments={12} likes={95} shares={24}/>
         </div>
     );
 };
